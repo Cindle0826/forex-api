@@ -1,0 +1,12 @@
+server:
+  port: 27018
+spring:
+  data:
+    mongodb:
+      authentication-database: admin
+      database: admin
+      username: root
+      password: 1234
+      host: localhost
+      port: 27017
+      uri: mongodb://localhost:27017/admin
